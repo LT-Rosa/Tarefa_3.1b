@@ -4,15 +4,15 @@ Extensão académica do **Front-end Animalec original** (Vue 2 + BootstrapVue), 
 
 ## Entregáveis
 
-- `wireframes/sponsors|experts/desktop.svg` e `mobile.svg` — estrutura, baixa fidelidade (4 ficheiros).
-- `mockups/sponsors|experts/desktop.svg` e `mobile.svg` — proposta gráfica, alta fidelidade (4 ficheiros).
-- `prototipos/index.html`, `sponsors.html` e `experts.html` — **protótipos HTML5 autónomos**, com listagem, detalhe, formulários, pesquisa, edição, remoção e navegação entre entidades (abrem diretamente no browser).
-- `Front-end/` — projeto original com novas rotas e protótipos interativos Vue/HTML5 integrados no Back-office.
-- `DOCUMENTACAO.md` — decisões de planeamento, percursos e critérios de teste.
+* `wireframes/sponsors/` e `wireframes/experts/` — quatro ficheiros `.drawio` editáveis (`desktop.drawio` e `mobile.drawio` por entidade), de baixa fidelidade.
+* `mockups/sponsors/` e `mockups/experts/` — quatro ficheiros `.drawio` editáveis (`desktop.drawio` e `mobile.drawio` por entidade), com proposta gráfica.
+* `prototipos/index.html`, `sponsors.html` e `experts.html` — **protótipos HTML5 autónomos**, com listagem, detalhe, formulários, pesquisa, edição, remoção e navegação entre entidades (abrem diretamente no browser).
+* `Front-end/` — projeto original com novas rotas e protótipos interativos Vue/HTML5 integrados no Back-office.
+* `DOCUMENTACAO.md` — decisões de planeamento, percursos e critérios de teste.
 
 ## Consultar os protótipos (terceiro artefacto)
 
-Abrir `prototipos/index.html` num browser e escolher **Sponsors** ou **Experts**. Os dois ficheiros HTML são navegáveis e responsivos, sem instalação de dependências. Os registos demonstrativos são locais e **não fazem parte da API original**.
+Abrir `prototipos/index.html` num browser e escolher **Sponsors** ou **Experts**. Os dois ficheiros HTML são navegáveis e responsivos, sem instalação de dependências. Existem registos demonstrativos predefinidos nas páginas HTML autónomas. Esses registos são locais e **não fazem parte da API original**. Na integração Vue, a lista inicia vazia até serem criados registos no navegador.
 
 ## Execução
 
@@ -33,8 +33,15 @@ node tests/verificacao-estatica.js
 npm run build
 ```
 
-O teste estático confirma a integração dos novos ficheiros, rotas e elementos essenciais; o teste de compilação requer dependências npm instaladas. Testar ainda manualmente os percursos descritos em `DOCUMENTACAO.md` em desktop e mobile.
-
 ## Edição dos wireframes e mockups no diagrams.net
 
-Os diretórios `wireframes/` e `mockups/` incluem ficheiros **`.drawio` editáveis** para Sponsors e Experts, em versões desktop e mobile, além das versões SVG. Abre os ficheiros em https://app.diagrams.net/ através de **Ficheiro > Abrir de > Dispositivo**. Cada retângulo e cada texto são objetos independentes e podem ser alterados diretamente.
+Os diretórios `wireframes/` e `mockups/` incluem ficheiros **`.drawio` editáveis** para Sponsors e Experts, em versões desktop e mobile.
+
+
+
+## Limites do âmbito
+
+As ligações a `/admin`, `/admin/sponsors` e `/admin/experts` existem no router
+
+
+
