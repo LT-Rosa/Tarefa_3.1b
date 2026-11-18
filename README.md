@@ -35,15 +35,6 @@ npm run build
 
 O teste estático confirma a integração dos novos ficheiros, rotas e elementos essenciais; o teste de compilação requer dependências npm instaladas. Testar ainda manualmente os percursos descritos em `DOCUMENTACAO.md` em desktop e mobile.
 
-## Git
-
-Criar, na área individual, um repositório **`Tarefa_3.1b`** e carregar o conteúdo desta pasta. A pasta `Front-end/node_modules` e ficheiros compilados não devem ser versionados.
-
-## Crédito
-
-Base: código original de apoio ao livro *Desenvolvimento Avançado para a Web*, Ricardo Queirós e Filipe Portela, FCA (2020). Alterações para a UC 22285: prototipagem das novas entidades Sponsors e Experts.
-
-
 ## Edição dos wireframes e mockups no diagrams.net
 
 Os diretórios `wireframes/` e `mockups/` incluem ficheiros **`.drawio` editáveis** para Sponsors e Experts, em versões desktop e mobile, além das versões SVG. Abre os ficheiros em https://app.diagrams.net/ através de **Ficheiro > Abrir de > Dispositivo**. Cada retângulo e cada texto são objetos independentes e podem ser alterados diretamente.
