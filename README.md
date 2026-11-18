@@ -10,8 +10,6 @@ Extensão académica do **Front-end Animalec original** (Vue 2 + BootstrapVue), 
 - `Front-end/` — projeto original com novas rotas e protótipos interativos Vue/HTML5 integrados no Back-office.
 - `DOCUMENTACAO.md` — decisões de planeamento, percursos e critérios de teste.
 
-Os SVG são vetoriais, editáveis, abrem num browser e podem ser importados no diagrams.net/draw.io. Representam a **listagem e pré-visualização do formulário**; os formulários completos estão no protótipo funcional.
-
 ## Consultar os protótipos (terceiro artefacto)
 
 Abrir `prototipos/index.html` num browser e escolher **Sponsors** ou **Experts**. Os dois ficheiros HTML são navegáveis e responsivos, sem instalação de dependências. Os registos demonstrativos são locais e **não fazem parte da API original**.
